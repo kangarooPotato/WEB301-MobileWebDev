@@ -1,0 +1,159 @@
+footer {
+	margin: 0 auto;
+	text-align: center;
+	color: darkolivegreen;
+	margin-top: 50px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+}
+
+#navigation {
+	background-color: black;
+	height: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #222831;
+	/*	position: fixed;*/
+}
+
+.title {
+	text-shadow: 2px 2px 5px #000000;
+	position: absolute;
+	top: 300px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2em;
+	color: white;
+/*	mix-blend-mode: difference;*/
+
+}
+
+a {
+	color: #00adb0;
+	text-decoration: none;
+}
+
+li {
+	margin-right: 20px;
+	list-style: none;
+
+}
+
+#main {
+	width: 100%;
+	/*	background-color: #666;*/
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	height: 300px;
+	flex-wrap: wrap;
+	background-color: lightgray;
+}
+
+/*
+.col1 { width: 100%; background-color: red; }
+.col2 { width: 100%; background-color: blue; }
+.col3 { display: none; width: 100%; background-color: green; }
+*/
+
+.imgD {
+	display: none;
+}
+
+.imgM {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.imgA {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+	.container {
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	/*#main {background-color: yellow;}*/
+	.row {
+		height: 200px;
+	}
+
+	.col1 {
+		width: 50%;
+	}
+
+	.col2 {
+		width: 50%;
+	}
+
+	.col3 {
+		display: none;
+		width: 25%;
+	}
+
+	.imgD {
+		display: none;
+	}
+
+	.imgM {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.container {
+		max-width: 960px;
+		margin: 0 auto;
+		display: block;
+	}
+
+	/*#main {background-color: purple;}*/
+	.row {
+		height: 150px;
+	}
+
+	.col1 {
+		width: 50%;
+	}
+
+	.col2 {
+		width: 25%;
+	}
+
+	.col3 {
+		display: block;
+		width: 25%;
+	}
+
+	.imgD {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.imgM {
+		display: none;
+		widows: 100%;
+		height: auto;
+	}
+}

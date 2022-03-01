@@ -19,8 +19,8 @@
 		
 		<div id="main">
 		<h4 class="title">Home</h4>
-			<img src="img/appleD.jpg" class="imgD">
-			<img src="img/appleM.jpg" class="imgM">
+			<img src="img/apple1.jpg" class="imgD">
+			<img src="img/apple2.jpg" class="imgM">
 		</div>
 
 		<div class="row">

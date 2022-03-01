@@ -20,9 +20,9 @@
 
 		<div id="main">
 		<h4 class="title">About Mac</h4>
-			<img src="img/macD.jpg" class="imgD">
-			<img src="img/macM.jpg" class="imgM">
-			<img src="img/appleA.jpg" class="imgA">
+			<img src="img/mac1.jpg" class="imgD">
+			<img src="img/mac2.jpg" class="imgM">
+			<img src="img/apple0.jpg" class="imgA">
 		</div>
 
 		<div class="row">

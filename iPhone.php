@@ -19,8 +19,8 @@
 		
 		<div id="main">
 		<h4 class="title">About iPhon</h4>
-			<img src="img/phoneD.jpg" class="imgD">
-			<img src="img/phoneM.jpg" class="imgM">
+			<img src="img/phone1.jpg" class="imgD">
+			<img src="img/phone2.jpg" class="imgM">
 		</div>
 
 		<div class="row">

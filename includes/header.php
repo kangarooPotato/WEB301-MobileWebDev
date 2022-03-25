@@ -25,6 +25,7 @@
 				<li><a href="index.php">Home</a></li>
 				<li><a href="iphone.php">iPhone</a></li>
 				<li><a href="mac.php">Mac</a></li>
+                <li><a href="contact_us.php">Contact us</a></li>
 			</ul>
 		</div>
 	</div>

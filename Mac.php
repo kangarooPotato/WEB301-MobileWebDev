@@ -67,14 +67,11 @@
 
 			<?php
 			include('includes/footer.php');
-		?>
+			?>
 		</div>
 	</div>
 	<script>
 		$(document).ready(function() {
-			$("#mobilenav").click(function() {
-				$("#nav").slideToggle("slow");
-			});
 
 			$("#lightboxBtn").click(function() {
 				$("#overlay").fadeIn();
